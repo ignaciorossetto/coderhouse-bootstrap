@@ -1,142 +1,137 @@
-a{
-    color:black
-
+a {
+  color: black;
 }
 
 header {
-    background-image: url("../imagenes/portada.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 28%;
-    height: auto;
-    width: auto;
+  background-image: url("../imagenes/portada.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 28%;
+  height: auto;
+  width: auto;
 }
 
 h1 {
-    background-color: rgba(240, 248, 255, 0.673);
-    border-radius: 30px;
-    width: fit-content;
-    padding: 10px 25px;
-    margin-left: 40px;
-    align-self: center;
-
-
+  background-color: rgba(240, 248, 255, 0.673);
+  border-radius: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 25px;
+  margin-left: 40px;
+  align-self: center;
 }
 
 nav {
-    background-color: none;
-    justify-self: end;
-    margin: 25px 15px 25px 0;
-    padding: 5px 15px
+  background-color: none;
+  justify-self: end;
+  margin: 25px 15px 25px 0;
+  padding: 5px 15px;
 }
 
 ul {
-    background-color: rgba(240, 248, 255, 0.673);
-    border-radius: 30px;
+  background-color: rgba(240, 248, 255, 0.673);
+  border-radius: 30px;
 }
 
 .nav-item {
-    font-weight: 1000;
-    color: blue;
-    opacity: 1
+  font-weight: 1000;
+  color: blue;
+  opacity: 1;
 }
 
 .dropdown-menu {
-    background-color: rgba(255, 255, 255, 0.692);
-    border-radius: 30px;
+  background-color: rgba(240, 248, 255, 0.673);
+  border-radius: 30px;
 }
 
-
 .shop-button {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
 }
 
 .dropdown-item {
-    display: block;
-    width: 100%;
-    padding: 5px 20px;
-    font-weight: 400;
-    color: var(--bs-dropdown-link-color);
-
+  display: block;
+  width: 100%;
+  padding: 5px 20px;
+  font-weight: 400;
+  color: var(--bs-dropdown-link-color);
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: var(--bs-dropdown-link-hover-color);
-    background-color: var(--bs-dropdown-link-hover-bg);
-    text-decoration: underline;
+  color: var(--bs-dropdown-link-hover-color);
+  background-color: var(--bs-dropdown-link-hover-bg);
+  text-decoration: underline;
 }
 
 p {
-    text-indent: 5px;
+  text-indent: 5px;
 }
 
 .carousel {
-    width: 500px;
-    height: 552px;
-
+  width: 500px;
+  height: 552px;
 }
 
 .carousel-caption {
-    background-color:rgba(240, 248, 255, 0.703);
-    border-radius: 30px;
-    background-size: fit-content;
+  background-color: rgba(240, 248, 255, 0.673);
+  border-radius: 30px;
+  background-size: fit-content;
 }
+
 .carousel-caption:hover {
-    transform: scale(1.1)
+  transform: scale(1.1);
 }
 
-.volverarriba-btn a{
-    color: black;
-    text-decoration: none;
-    opacity:0.85;
-}
-.volverarriba-btn a:hover{
-    opacity: 1;
-    transform: scale(1.1);
-
+.volverarriba-btn a {
+  color: black;
+  text-decoration: none;
+  opacity: 0.85;
 }
 
-footer div div div a i{
-    color: black;
-    opacity: 0.9;
-}
-footer div div div a i:hover{
-    opacity: 1;
-    transform: scale(1.05);
+.volverarriba-btn a:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-
-.main-contacto{
-    width: auto;
-    height:500px;
-    background-color: rgb(186, 154, 185);
-    border-radius: 20px;
-    margin:30px 30px;
-    box-sizing: border-box;
+footer div div div a i {
+  color: black;
+  opacity: 0.9;
 }
 
-.input-group input{
-    margin: 5px 0;
-    padding: 0 15px
+footer div div div a i:hover {
+  opacity: 1;
+  transform: scale(1.05);
 }
 
-.select{
-    width:fit-content;
+.main-contacto {
+  width: auto;
+  height: 500px;
+  background-color: rgb(186, 154, 185);
+  border-radius: 30px;
+  margin: 30px 30px;
+  box-sizing: border-box;
+}
+
+.input-group input {
+  margin: 5px 0;
+  padding: 0 15px;
+}
+
+.select {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .row div {
-    margin: 0px;
-    margin: 0 10px 10px 0
+  margin: 0px;
+  margin: 0 10px 10px 0;
 }
 
-
-
-@media screen and (min-width:280px) and (max-width:545px) {
-
-    .navbar-expand .navbar-nav {
-        flex-direction: column;
-      }
-
-}
+@media screen and (min-width: 280px) and (max-width: 545px) {
+  .navbar-expand .navbar-nav {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
