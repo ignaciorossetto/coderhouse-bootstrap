@@ -1,0 +1,18 @@
+MAP: EN EL FOOTER. EN LOS ICONOS:HOVER.
+EXTEND: ARME UNA CLASE .container-attributes-1 Y SE LO PUSE A LOS H1, UL, ETC.
+MIX IN: @mixin wh-size para widht y height de elementos que requerian esos dos valores.
+
+
+
+<title>Tienda de Costumbres. Productos de diseño Artesanal Argentino</title>
+
+
+<meta name="keywords" content="Bordado a mano, Bordados, Almohadones hechos a mano, Bolsos hechos a mano, Ropa de cama, Mantas hechas a mano, productos de diseño argentino, productos hechos a mano, diseño hecho a mano, artesanos argentinos, karam hecho a mano">
+
+<meta name="description" content="Almohadones, bolsos, sobres y pies de cama hechos a mano. Ventas al por mayor, menor al mercado local e internacional.">
+
+Modificaciones:
+
+Titulos: Todos los titulos dejaron de llamarse "DOCUMENT". Ahora todos tienen el titulo correspondiente a cada seccion.
+Descripcion: Genere una descripcion general y a cada seccion le agregue una oracion relacionada a la misma.
+Keywords: Genere una amplia variedad de keywords para el index y sobre esa base hice modificaciones para cada seccion.

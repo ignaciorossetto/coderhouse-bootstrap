@@ -1,5 +1,21 @@
-a {
-  color: black;
+.container-attributes-1, .dropdown-menu, ul, h1 {
+  background-color: rgba(240, 248, 255, 0.673);
+  border-radius: 30px;
+}
+
+.redes--red1:hover i {
+  transition: all 0.2s;
+  color: rgba(93, 33, 116, 0.795);
+}
+
+.redes--red2:hover i {
+  transition: all 0.2s;
+  color: rgba(39, 39, 186, 0.851);
+}
+
+.redes--red3:hover i {
+  transition: all 0.2s;
+  color: rgba(57, 163, 57, 0.845);
 }
 
 header {
@@ -7,13 +23,11 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 28%;
-  height: auto;
   width: auto;
+  height: auto;
 }
 
 h1 {
-  background-color: rgba(240, 248, 255, 0.673);
-  border-radius: 30px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -29,20 +43,10 @@ nav {
   padding: 5px 15px;
 }
 
-ul {
-  background-color: rgba(240, 248, 255, 0.673);
-  border-radius: 30px;
-}
-
 .nav-item {
   font-weight: 1000;
   color: blue;
   opacity: 1;
-}
-
-.dropdown-menu {
-  background-color: rgba(240, 248, 255, 0.673);
-  border-radius: 30px;
 }
 
 .shop-button {
@@ -53,6 +57,9 @@ ul {
 .dropdown-item {
   display: block;
   width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding: 5px 20px;
   font-weight: 400;
   color: var(--bs-dropdown-link-color);
